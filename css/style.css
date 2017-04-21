@@ -2,7 +2,7 @@ body{
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
-	max-width: 1200px;
+	max-width: 1250px;
 	margin: 0 auto;
 }
 
@@ -17,6 +17,9 @@ a:link{
 }
 
 .photo{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
 	width: 160px;
 	margin: 10px 1px;
 	padding: 10px;
@@ -26,9 +29,6 @@ a:link{
 	opacity: 0.7;
 	transform: rotate(6deg) scale(0.9);
 	transition: all 0.4s ease-in-out;
-	display: flex;
-	align-items: center;
-	flex-wrap: wrap;
 }
 
 .photo:hover{
@@ -48,8 +48,8 @@ a:nth-child(even):hover{
 
 
 .photo img{
-	width: 140px;
 	flex-basis: 100%;
+	width: 140px;
 	margin-bottom: 6px;
 }
 
